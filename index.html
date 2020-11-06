@@ -21,6 +21,11 @@
 			font-family: 'Sofia';font-size: 22px;
 		}
 		
+		table, th, td {
+			border: 1px solid black;
+			padding: 10px
+		}
+		
 		</style>
     
 
@@ -68,9 +73,9 @@
     </p>
 
     <p>Name: Luqman Simon</p>
-    <p>Email: <a href= "mailto: yipyip@dogsbark.com"> yipyip@dogsbark.com </a> </p>
+    <p>Email: <a href= "mailto: yipyip@acurlypianist.com"> yipyip@acurlypianist.com </a> </p>
     <p>
-      Description: I like big butts and I cannot lie/You other brothers can't deny
+      Description: Objects in rear view are closer than they appear
     </p>
     <p>Portfolio: <a href="portfolio.html"> Portfolio </a></p>
     <p>Profile Picture:</p>
@@ -79,6 +84,62 @@
       height="200"
       src="https://media.giphy.com/media/B0vFTrb0ZGDf2/giphy.gif"
     />
+	
+	<br>
+	<br>
+	
+	 <table style="width:100%">
+  <tr>
+    <th>Monitor</th>
+    <th>Brand</th>
+    <th>#</th>
+  </tr>
+  <tr>
+    <td>30inch</td>
+    <td>Dell</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>27inch</td>
+    <td>Chroma</td>
+    <td>2</td>
+  </tr>
+</table> 
+
+<div>
+
+<h3> Pick a favourite!</h3>
+	<form>
+		<input type="radio"><label>ASCII</label>
+		<input type="radio"><label>HTML></label><br>
+	</form>
+	
+	<br>
+	
+	 <iframe src="https://www.w3schools.com" name="iframe_a" title="Iframe Example"></iframe>
+
+<p>I'm currently using this as a coding resource: <a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p> 
+
+</div>
+
+<canvas id="myCanvas" width="200" height="100"
+style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+
+// Create gradient
+var grd = ctx.createRadialGradient(75,50,5,90,60,50);
+grd.addColorStop(0,"green");
+grd.addColorStop(1,"white");
+
+// Fill with gradient
+ctx.fillStyle = grd;
+ctx.fillRect(10,10,150,80);
+</script>
+<p> I borrowed this spot; I'll return it! </p>
 
     <!-- include the Glitch button to show what the webpage is about and
           to make it easier for folks to view source and remix -->
