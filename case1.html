@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+@media (max-width: 600px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width:500px;
+  margin:10px;
+  padding:20px;
+  text-align:center;
+  line-height:75px;
+  font-size:30px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.pricing	{
+			font-family: simplifica;	
+}
+
+.buybutton {
+  background-color: lightblue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+}
+
+.buybutton:hover	{
+	background-color: blue;
+}
+
+.basket {
+  background-color: lightgreen;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+}
+
+.basket:hover	{
+	background-color: green;
+}
+
+.buttonpadding	{
+		padding-left: 120px;
+}
+
+	</style>
+	
+	</head>
+	
+<body>
+
+<div class="flex-container">
+	<div class="row">
+<img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone11-white-select-2019?wid=470&hei=556&fmt=png-alpha&.v=1566956148115">
+	</div>
+		
+
+<div class="pricing"><br><br>IPhone 11 Pro <br>
+		<p> Sleek satin finish </p>
+		<p style="color:red;"> $1024 </p>
+
+		</div>
+			</div>
+
+<div class="buttonpadding">			
+<a href="#" class="buybutton">Buy Now</a>
+<a href="#" class="basket">Add to Cart</a>
+	</div>
+	
+	<br>
+	<button type="button" onclick="document.location='index.html'"> Back to Main</button>
+			
+			
+	</body>
+	
