@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+
+    <style>
+        .btn-primary {
+            background-color: red;
+            border-color: red;
+        }
+        
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        
+        li {
+            float: left;
+            display: inline;
+        }
+        
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        li a:hover {
+            background-color: #111;
+        }
+        
+        <!-- banner {
+            //display: -webkit-box;
+            display: flex;
+            -webkit-box-align: end;
+            align-items: flex-end;
+            -webkit-box-pack: end;
+            justify-content: flex-end;
+            margin: 0 -24px;
+        }
+        
+        -->bannerimg {
+            width: 100%;
+            height: 128px;
+            background-color: #ff2636;
+            background-image: url(https://www.publicdomainpictures.net/pictures/150000/nahled/banner-header-tapete-14525316867Uo.jpg);
+            background-repeat: repeat;
+            background-size: 50%;
+        }
+        
+        .card-text {
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+        
+        .avatar {
+            margin-top: -112px;
+            border: 4px;
+            color: white;
+        }
+        
+        .banner {
+            width: 100%;
+            height: 128px;
+            background-color: #ff2636;
+            background-image: url("image/banner1.webp");
+            background-repeat: repeat;
+            background-size: 50%
+        }
+        
+        .navbar {
+            width: 100%
+        }
+    </style>
+    <title>Carousell sample profile page</title>
+</head>
+
+<body>
+    <div>
+
+        <!-- <div class="navbar"> -->
+        <!--         <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#c&p">Cars & Property</a></li>
+            <li><a href="#fashion">Fashion</a></li>
+            <li><a href="#h&l">Home and Living</a></li>
+            <li><a href="#m&e">Mobiles & Electronics</a></li>
+            <li><a href="#h&g">Hobbies & Games</a></li>
+            <li><a href="#j&s">Jobs & Services</a></li>
+            <li><a href="#others">Others</a></li>
+            <li style="float:right"><a href="#login">Login</a></li>
+            <li style="float:right"><a href="#register">Register</a></li>
+        </ul> -->
+        <!-- </div> -->
+
+
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand"><img src="image/insta/logo.png"></a>
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+            </form>
+            <!-- <button type="button" class="btn btn-primary btn-sm">Sell</button> -->
+        </nav>
+
+
+
+        <!-- banner logo  -->
+        <div class="banner">
+        </div>
+
+    </div>
+
+
+
+    <!-- 	Profile -->
+    <div class="container-fluid">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4" style="margin-top:-112px" ;>
+                    <div>
+                        <img src="image/babbiewookiee.jpg" alt="Avatar" class="rounded-circle">
+                    </div>
+                    <div>
+                        <h2>BabbieWookiee</h2>
+                        <p>@babbiewookiee</p>
+                        <div> <img src="image/star-empty.svg" width="10%" height="10%">No ratings yet </div>
+                        <br>
+                        <div> Singapore | Joined 1d </div>
+                        <br>
+
+                        <div> Verified <img src="image/mail-icon.svg" width="8%" height="8%"> </div>
+
+
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <label for="listings"><h2>Listings</h2></label>
+                    <div class="row row-cols-2 row-cols-md-4">
+                        <div class="col mb-4">
+                            <div class="card h-100">
+                                <img src="image/carousell/carousell1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Etpark Wireless</h5>
+                                    <p class="card-text">S$33
+                                        <p>Etpark Wireless is the best, don't buy any how.</p>
+                                        <p>New</p>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card h-100">
+                                <img src="image/carousell/carousell2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">WiFI Range Intender</h5>
+                                    <p class="card-text">S$40
+                                        <p>Wifi Range Intender, for all your intended needs.
+                                            <p>
+                                                <p>New</p>
+                                            </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card h-100">
+                                <img src="image/carousell/carousell3.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">BrosTrend AC1200 WiFi Booster</h5>
+                                    <p class="card-text">S$40
+                                        <p> Brostrend AC1200 Booster really whips the llama's ass! </p>
+                                        <p>New</p>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card h-100">
+                                <img src="image/carousell/carousell4.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">BRIKSMAX Harry Potter Hogwarts</h5>
+                                    <p class="card-text">S$60
+                                        <p>BRIKSMAX Harry Potter Hogwarts' School of Infamy is now yours to control!</p>
+                                        <p>New</p>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card h-100">
+                                <img src="image/carousell/carousell5.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Oliny Outdoor Net Lights Garden</h5>
+                                    <p class="card-text">S$33
+                                        <p>Pliny the Elder recommends Oliny OUtdoor Net Lights for your garden, kitchen, or bathroom!</p>
+                                        <p>New</p>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card h-100">
+                                <img src="image/carousell/carousell6.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Criacr Christmas Lights</h5>
+                                    <p class="card-text">S$16
+                                        <p>100 lumen Christmas lights, what more could you ask for?
+                                            <p>New</p>
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card h-100">
+                                <img src="image/carousell/carousell7.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Digital Voice Recorder</h5>
+                                    <p class="card-text">S$29
+                                        <p> Digital Voice Recorder, COOAAH-compliant, 10Mb storage, 24bit DAC, 512Bytes ram</p>
+                                        <p>New</p>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card h-100">
+                                <img src="image/carousell/carousell8.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">YOSH Wireless Car Charger</h5>
+                                    <p class="card-text">S$37
+                                        <p>Yoshi uses YOSH Wireless car charger when knocking Mario off his cart!</p>
+                                        <p>New</p>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- </div> -->
+
+</body>

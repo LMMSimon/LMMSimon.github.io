@@ -1,0 +1,14 @@
+			<div class="navbar">
+				<ul>
+			  <li><a class="active" href="#home">Home</a></li>
+			  <li><a href="#c&p">Cars & Property</a></li>
+			  <li><a href="#fashion">Fashion</a></li>
+			  <li><a href="#h&l">Home and Living</a></li>
+			  <li><a href="#m&e">Mobiles & Electronics</a></li>
+			  <li><a href="#h&g">Hobbies & Games</a></li>
+			  <li><a href="#j&s">Jobs & Services</a></li>
+			  <li><a href="#others">Others</a></li>
+			  <li style="float:right"><a href="#login">Login</a></li>
+			  <li style="float:right"><a href="#register">Register</a></li>
+				</ul>
+			</div>
