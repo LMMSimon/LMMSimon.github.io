@@ -1,0 +1,71 @@
+.logo {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 24px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+.button {
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+div.banner {
+    width: 400px;
+    /*width of your image*/
+    height: 400px;
+    /*height of your image*/
+    background-image: url('../images/banner.jpg');
+    margin: auto;
+    /* If you want no margin */
+    padding: 0;
+    /*if your want to padding */
+}
+
+div.banner2 {
+    width: 60%;
+    /*width of your image*/
+    /* height: 400px; */
+    /*height of your image*/
+    background-image: url('../images/information-main.jpg');
+    margin: auto;
+    /* If you want no margin */
+    padding: 0;
+    /*if your want to padding */
+}
+
+.hold {
+    position: absolute;
+    width: 100%;
+    height: 100%
+}
+
+.holdimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    /* border: 3px solid #73AD21; */
+    padding: 10px;
+}
